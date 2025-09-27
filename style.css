@@ -1,1 +1,95 @@
+.float-container {
+    width: 100%;
+    height: 700px;
+}
 
+.rectangleT-float {
+    width: 60%;
+    height: 90px;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: rgb(67, 225, 9);
+    line-height: 90px;
+    text-align: center;
+}
+
+.rectangleL-float {
+    width: 15%;
+    height: 380px;
+    margin-left: 20%;
+    float: left;
+    background-color: rgb(146, 75, 204);
+    line-height: 380px;
+    text-align: center;
+}
+
+.rectangleR-float {
+    width: 45%;
+    height: 380px;
+    float: left;
+    background-color: rgb(141, 215, 245);
+    line-height: 380px;
+    text-align: center;
+}
+
+.rectangleB-float {
+    width: 60%;
+    height: 90px;
+    margin-left: 20%;
+    background-color: rgb(241, 241, 165);
+    line-height: 90px;
+    text-align: center;
+    clear: both;
+}
+
+.text-float {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.flex-container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-container {
+    height: 370px;
+    width: 60%;
+    display: flex; 
+}
+
+.rectangleT-flex {
+    height: 90px;
+    width: 60%;
+    margin-top: 5%;
+    background-color: rgb(67, 225, 9);
+}
+
+.rectangleL-flex {
+    width: 25%;
+    background-color: rgb(146, 75, 204);
+}
+
+.rectangleR-flex {
+    width: 75%;
+    background-color: rgb(141, 215, 245);
+}
+
+.rectangleB-flex {
+    width: 60%;
+    height: 90px;
+    background-color: rgb(241, 241, 165);
+}
+
+.text-flex {
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
